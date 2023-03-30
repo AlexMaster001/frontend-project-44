@@ -25,8 +25,8 @@ const calc = () => {
     default:
       break;
   }
-  const userAnswer = readlineSync.question('Your answer: ');
-  return [answer, userAnswer];
+  const playerAnswer = readlineSync.question('Your answer: ');
+  return [answer, playerAnswer];
 };
 
 export default calc;

@@ -8,8 +8,8 @@ const even = () => {
   const numb = random(1, 100);
   console.log(`Question: ${numb}`);
   const answer = numb % 2 === 0 ? 'yes' : 'no';
-  const userAnswer = readlineSync.question('Your answer: ');
-  return [answer, userAnswer];
+  const playerAnswer = readlineSync.question('Your answer: ');
+  return [answer, playerAnswer];
 };
 
 export default even;

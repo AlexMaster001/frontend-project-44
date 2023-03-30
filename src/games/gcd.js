@@ -35,8 +35,8 @@ const gcd = () => {
 
   const answer = String(getMaxDivider(firstValue, secondValue));
   console.log(`Question: ${firstValue} ${secondValue}`);
-  const userAnswer = readlineSync.question('Your answer: ');
-  return [answer, userAnswer];
+  const playerAnswer = readlineSync.question('Your answer: ');
+  return [answer, playerAnswer];
 };
 
 export default gcd;
